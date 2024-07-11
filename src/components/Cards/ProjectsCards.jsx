@@ -1,5 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'react-router-dom'
 
 
 const Button = styled.button`
@@ -32,6 +33,7 @@ const Card = styled.div`
         transform: translateY(-10px);
         box-shadow: 0 0 50px 4px rgba(0,0,0,0.6);
         filter: brightness(1.1);
+        height:540px
     }
     &:hover ${Button} {
         display: block;
@@ -141,7 +143,13 @@ const ProjectCards = ({project,setOpenModal}) => {
                     <Avatar src={member.img}/>
                 ))}
             </Members>
-            {/* <Button>View Project</Button> */}
+           { project.webapp &&
+           <Link to={project.webapp}><Button >View Project</Button></Link>}
+           { project.github &&
+           <Link to={project.github}><Button>View Github</Button></Link>}
+            { project.video &&
+           <Link to={project.video}><Button>Project Video</Button></Link>}
+            
         </Card>
     )
 }
