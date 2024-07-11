@@ -12,11 +12,11 @@ export const Bio = {
       "I am a evolving Full Stack Developer with a passion to learn new technologies in the tech world.I am always eager to take on new challenges and I am excited to collaborate with forward-thinking teams and contribute to impactful projects.",
     github: "https://github.com/arshdeep932985",
     resume:
-      "https://drive.google.com/file/d/1h6a3XnTOw5qgogj_WY_vryHOCExIH6iD/view?usp=drive_link",
+      "https://drive.google.com/file/d/1NDf_KJtIflxSIVF6WR8yh5SL9llT-pnD/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/arshdeep-singh-52b56b1b6/",
-    twitter: "https://twitter.com/RishavChanda",
-    insta: "https://www.instagram.com/rishav_chanda/",
-    facebook: "https://www.facebook.com/profile.php?id=100008684318266",
+    twitter: "",
+    insta: "",
+    facebook: "",
   };
   
   export const skills = [
